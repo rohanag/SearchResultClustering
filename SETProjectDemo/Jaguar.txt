@@ -1,0 +1,142 @@
+RESULTS FOR SEARCH TERM "Jaguar"
+
+-----------------------------Cluster 1-----------------------------
+
+1. Jaguar News - Autoblog
+http://www.autoblog.com/jaguar/
+Snippet: Read the latest Jaguar news and reviews complete with photos, videos, and road tests of new Jaguar vehicles.
+
+
+2. New 2012, 2013 Jaguar Car Models - Yahoo! Autos
+http://autos.yahoo.com/jaguar/
+Snippet: 2013 Jaguar Cars. Click on any new Jaguar model name for more detailed Jaguar information, pictures, specs and reviews. ALL CATEGORIES; CONVERTIBLES
+
+
+3. Jaguars, Jaguar Pictures, Jaguar Facts - National Geographic
+http://animals.nationalgeographic.com/animals/mammals/jaguar/
+Snippet: Learn all you wanted to know about jaguars with pictures, videos, photos, facts, and news from National Geographic.
+
+
+4. Jaguar - Research All Models and Prices - MSN Autos
+http://autos.msn.com/browse/Jaguar.aspx
+Snippet: Jaguar prices, reviews, used Jaguar classifieds, and more on MSN Autos
+
+
+5. 2013 Jaguar XKR-S Nicko McBrain Edition - Top Speed
+http://www.topspeed.com/cars/jaguar/2013-jaguar-xkr-s-nicko-mcbrain-edition-ar138507.html
+Snippet: Jaguar Jaguar XKR-S Nicko McBrain Edition just like what ferrari did for golfer ian poulter and musician eric clapton automakers have been known to ...
+
+
+6. Jaguar India - Jaguar
+http://www.jaguar.com/in/en/
+Snippet: Our mission at Jaguar has been to create and build beautiful fast cars. The XK, XF and the All New XJ bring the exhilaration of driving to life.
+
+
+7. Jaguar Cars and Automobiles - AOL Autos
+http://autos.aol.com/jaguar/
+Snippet: Research Jaguar cars, coupes and New Jaguar models. Compare New Jaguar options, incentives and deals. Find Jaguar news, photos, dealers, and listings.
+
+
+-----------------------------Cluster 2-----------------------------
+
+8. Jaguar: Luxury Cars & Sports Cars | Jaguar USA
+http://www.jaguarusa.com/
+Snippet: The official home of Jaguar USA. Our luxury cars feature innovative designs along with legendary performance to deliver one of the top sports cars in the industry.
+
+
+9. Jaguar International - Market selector page
+http://www.jaguar.com/gl/en/marketsel
+Snippet: Jaguar Cars Limited: Registered Office: Abbey Road, Whitley, Coventry CV3 4LF Registered in England No: 1672070. You need Flash Player 9. for the best website ...
+
+
+10. Jaguar - Cars.com
+http://www.cars.com/jaguar/
+Snippet: New and used Jaguar cars and trucks. See the latest Jaguar models and find a Jaguar for sale in your area.
+
+
+11. Jaguar Cars - Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/Jaguar_(car)
+Snippet: Jaguar Cars Ltd, known simply as Jaguar, is a British luxury and sports car manufacturer, headquartered in Whitley, Coventry, England. It is part of the Jaguar Land ...
+
+
+12. Jaguar - Used Cars for Sale - Carsforsale.com
+http://www.carsforsale.com/used_cars_for_sale/Jaguar
+Snippet: Jaguar for sale. Used Jaguar for sale on Cars For Sale. Buy Used Cars For Sale. Used Cars on Carsforsale.com.
+
+
+13. Jaguar cars - specifications, prices, Pictures - Top Speed
+http://www.topspeed.com/cars/jaguar/index48.html
+Snippet: wide range of information on Jaguar cars, Pictures, prices, options, and specifications.
+
+
+14. jaguar | eBay - Electronics, Cars, Fashion, Collectibles, Coupons ...
+http://www.ebay.com/sch/i.html?_nkw=jaguar
+Snippet: Find jaguar from a vast selection of Cars & Trucks. Shop eBay!
+
+
+15. Jaguar Cars - All Jaguar Models | Automotive.com
+http://www.automotive.com/jaguar/t3-13-2/
+Snippet: Get all of the facts about Jaguar cars including pricing, specs, fuel economy, and more at Automotive.com.
+
+
+16. Jaguar Land Rover Debuts Three All-New British Vehicles at 2012 ...
+http://finance.yahoo.com/news/jaguar-land-rover-debuts-three-130000889.html
+Snippet: MAHWAH, N.J., Nov. 20, 2012 /PRNewswire/ -- Jaguar Land Rover will draw the world's attention to all things British with the debut of three exciting new ...
+
+
+-----------------------------Cluster 3-----------------------------
+
+17. Jaguar - Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/Jaguar
+Snippet: The jaguar is a big cat, a feline in the Panthera genus, and is the only Panthera species found in the Americas. The jaguar is the third-largest feline after the ...
+
+
+18. jaguar: Definition from Answers.com
+http://www.answers.com/topic/jaguar
+Snippet: jaguar n. A large feline mammal (Panthera onca) of Central and South America, closely related to the leopard and having a tawny coat spotted with black
+
+
+19. Jaguar - Wikimedia
+http://flaggedrevs.labs.wikimedia.org/wiki/Jaguar
+Snippet: The Jaguar, Panthera onca, is a big cat, a feline in the Panthera genus. It is the only Panthera species found in the Americas. The jaguar is the third-largest feline ...
+
+
+20. Jaguar - Simple English Wikipedia, the free encyclopedia
+http://simple.wikipedia.org/wiki/Jaguar
+Snippet: The Jaguar (Panthera onca) is a large feline (big cat) which lives in South and Central America. The jaguar is the third-largest feline after the tiger and the lion.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+CLUSTER LABELS are:
+
+Cluster 1
+jaguar news
+msn autos
+new jaguar
+
+Cluster 2
+luxury
+cars sale
+automotive
+
+Cluster 3
+large feline
+panthera onca
+america jaguar largest
+
+We will talk about the appropriateness of cluster labels. Taking each label one by one.
+'jaguar news' accurately descibes cluster 1 which is about the latest news, models about jaguar.
+'luxury' partially descirbes cluster 2 about luxury cars by jaguar, but in combination, the 3 labels describe the cluster.
+'large feline' accurately describes cluster 3 about the animal jaguar.
+
+It could be argued that Cluster 1 and Cluster 2 could be merged, but this is subjective. The user could want to see a seperate cluster for the latest news about Jaguar and a seperate cluster for information about the company and cars. I have chosen a low penalty, which encourages the creation of greater number of clusters, as I belive this does not dilute the user experience.
+------------------------------------------------PURITY--------------------------------------------------------------------------------
+
+Number of Accurate labels in Cluster 1 are 5 / 7 (Result 3 and 6 are wrongly clustered) 
+Number of Accurate labels in Cluster 2 are 8 / 9 (The last result is a news article and should be in cluster 1)
+Number of Accurate labels in Cluster 3 are 4 / 4
+
+PURITY = 17 / 20
+       = 85 %
+

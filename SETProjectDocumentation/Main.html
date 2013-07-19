@@ -1,0 +1,107 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module Main</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>Main</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:///C:/users/rohan/dropbox/wip/ra2616-setproject/api/main.py">c:\users\rohan\dropbox\wip\ra2616-setproject\api\main.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="base64.html">base64</a><br>
+</td><td width="25%" valign=top><a href="json.html">json</a><br>
+</td><td width="25%" valign=top><a href="nltk.stem.porter.html">nltk.stem.porter</a><br>
+</td><td width="25%" valign=top><a href="urllib2.html">urllib2</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-ClusterWeb"><strong>ClusterWeb</strong></a>(searchstring, clusters, searchResults)</dt><dd><tt>This&nbsp;is&nbsp;the&nbsp;central&nbsp;function&nbsp;which&nbsp;combined&nbsp;all&nbsp;the&nbsp;elements&nbsp;of&nbsp;the&nbsp;API<br>
+Takes&nbsp;as&nbsp;input&nbsp;the&nbsp;searchstring&nbsp;provided&nbsp;by&nbsp;the&nbsp;user&nbsp;and&nbsp;returns<br>
+clusters.<br>
+Structure&nbsp;of&nbsp;clusters&nbsp;is&nbsp;<br>
+clusters[searchstring][clusterID]&nbsp;=&nbsp;[[cluster&nbsp;descriptors,&nbsp;,&nbsp;],[doc&nbsp;Ids,&nbsp;,&nbsp;]]</tt></dd></dl>
+ <dl><dt><a name="-getcwd"><strong>getcwd</strong></a>(...)</dt><dd><tt><a href="#-getcwd">getcwd</a>()&nbsp;-&gt;&nbsp;path<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;string&nbsp;representing&nbsp;the&nbsp;current&nbsp;working&nbsp;directory.</tt></dd></dl>
+ <dl><dt><a name="-rand"><strong>rand</strong></a>(...)</dt><dd><tt><a href="#-rand">rand</a>(d0,&nbsp;d1,&nbsp;...,&nbsp;dn)<br>
+&nbsp;<br>
+Random&nbsp;values&nbsp;in&nbsp;a&nbsp;given&nbsp;shape.<br>
+&nbsp;<br>
+Create&nbsp;an&nbsp;array&nbsp;of&nbsp;the&nbsp;given&nbsp;shape&nbsp;and&nbsp;propagate&nbsp;it&nbsp;with<br>
+random&nbsp;samples&nbsp;from&nbsp;a&nbsp;uniform&nbsp;distribution<br>
+over&nbsp;``[0,&nbsp;1)``.<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+d0,&nbsp;d1,&nbsp;...,&nbsp;dn&nbsp;:&nbsp;int<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Shape&nbsp;of&nbsp;the&nbsp;output.<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+out&nbsp;:&nbsp;ndarray,&nbsp;shape&nbsp;``(d0,&nbsp;d1,&nbsp;...,&nbsp;dn)``<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Random&nbsp;values.<br>
+&nbsp;<br>
+See&nbsp;Also<br>
+--------<br>
+random<br>
+&nbsp;<br>
+Notes<br>
+-----<br>
+This&nbsp;is&nbsp;a&nbsp;convenience&nbsp;function.&nbsp;If&nbsp;you&nbsp;want&nbsp;an&nbsp;interface&nbsp;that<br>
+takes&nbsp;a&nbsp;shape-tuple&nbsp;as&nbsp;the&nbsp;first&nbsp;argument,&nbsp;refer&nbsp;to<br>
+`random`.<br>
+&nbsp;<br>
+Examples<br>
+--------<br>
+&gt;&gt;&gt;&nbsp;np.random.<a href="#-rand">rand</a>(3,2)<br>
+array([[&nbsp;0.14022471,&nbsp;&nbsp;0.96360618],&nbsp;&nbsp;#random<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&nbsp;0.37601032,&nbsp;&nbsp;0.25528411],&nbsp;&nbsp;#random<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&nbsp;0.49313049,&nbsp;&nbsp;0.94909878]])&nbsp;#random</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>ClstrObj</strong> = &lt;ClusteringAPI.ClusteringAPI instance&gt;<br>
+<strong>DOTALL</strong> = 16<br>
+<strong>I</strong> = 2<br>
+<strong>IGNORECASE</strong> = 2<br>
+<strong>L</strong> = 4<br>
+<strong>LOCALE</strong> = 4<br>
+<strong>M</strong> = 8<br>
+<strong>MULTILINE</strong> = 8<br>
+<strong>PPobj</strong> = &lt;PreProcessingAPI.PreProcessingAPI instance&gt;<br>
+<strong>PostObj</strong> = &lt;PostProcessingAPI.PostProcessingAPI instance&gt;<br>
+<strong>PreObj</strong> = &lt;PreProcessingAPI.PreProcessingAPI instance&gt;<br>
+<strong>S</strong> = 16<br>
+<strong>U</strong> = 32<br>
+<strong>UNICODE</strong> = 32<br>
+<strong>VERBOSE</strong> = 64<br>
+<strong>X</strong> = 64<br>
+<strong>__author__</strong> = 'Rohan Agrawal'<br>
+<strong>bingObj</strong> = &lt;BingResultsAPI.BingResultsAPI instance&gt;<br>
+<strong>division</strong> = _Feature((2, 2, 0, 'alpha', 2), (3, 0, 0, 'alpha', 0), 8192)<br>
+<strong>path</strong> = ['.', r'C:\Users\Rohan\Dropbox\WIP\ra2616-SETproject', r'C:\Windows\system32\python27.zip', r'c:\python273\DLLs', r'c:\python273\lib', r'c:\python273\lib\plat-win', r'c:\python273\lib\lib-tk', r'c:\python273', r'c:\python273\lib\site-packages', r'C:\Users\Rohan\Dropbox\WIP\ra2616-SETproject/API']</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Author</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Rohan&nbsp;Agrawal</td></tr></table>
+</body></html>

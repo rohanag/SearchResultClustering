@@ -1,0 +1,119 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module PreProcessingAPI</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>PreProcessingAPI</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:///C:/users/rohan/dropbox/wip/ra2616-setproject/api/preprocessingapi.py">c:\users\rohan\dropbox\wip\ra2616-setproject\api\preprocessingapi.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="nltk.stem.porter.html">nltk.stem.porter</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="PreProcessingAPI.html#PreProcessingAPI">PreProcessingAPI</a>
+</font></dt></dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="PreProcessingAPI">class <strong>PreProcessingAPI</strong></a></font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>contains&nbsp;all&nbsp;functions&nbsp;required&nbsp;for&nbsp;preprocesing<br>
+the&nbsp;text,&nbsp;before&nbsp;running&nbsp;clustering&nbsp;algorithm.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="PreProcessingAPI-extractFromURL"><strong>extractFromURL</strong></a>(self, s)</dt><dd><tt>Takes&nbsp;a&nbsp;URL,&nbsp;and&nbsp;returns&nbsp;all&nbsp;words&nbsp;in&nbsp;the&nbsp;URL&nbsp;<br>
+after&nbsp;the&nbsp;3rd&nbsp;slash&nbsp;in&nbsp;the&nbsp;url<br>
+e.g.&nbsp;for&nbsp;input&nbsp;<a href="http://www.google.com/abcd/efgh">http://www.google.com/abcd/efgh</a>&nbsp;<br>
+['abcd','efgh']&nbsp;is&nbsp;returned</tt></dd></dl>
+
+<dl><dt><a name="PreProcessingAPI-filterEmptyStr"><strong>filterEmptyStr</strong></a>(self, s)</dt><dd><tt>takes&nbsp;a&nbsp;list&nbsp;s,&nbsp;and&nbsp;returns&nbsp;the&nbsp;list&nbsp;after&nbsp;removing&nbsp;all<br>
+the&nbsp;empty&nbsp;elements&nbsp;from&nbsp;s</tt></dd></dl>
+
+<dl><dt><a name="PreProcessingAPI-getDataset"><strong>getDataset</strong></a>(self, sentenceseperator, result, searchstring, searchResults)</dt><dd><tt>Takes&nbsp;as&nbsp;input&nbsp;sentence&nbsp;seperator&nbsp;(so&nbsp;that&nbsp;a&nbsp;phrase&nbsp;will&nbsp;not&nbsp;<br>
+extend&nbsp;beyond&nbsp;a&nbsp;sentence,&nbsp;for&nbsp;e.g.&nbsp;in&nbsp;"&nbsp;apple.&nbsp;apple&nbsp;product",&nbsp;<br>
+"apple&nbsp;apple&nbsp;product"&nbsp;cannot&nbsp;be&nbsp;a&nbsp;phrase,&nbsp;but&nbsp;"apple&nbsp;product"<br>
+can&nbsp;be)<br>
+Takes&nbsp;result&nbsp;dictionary&nbsp;which&nbsp;contains&nbsp;results&nbsp;of&nbsp;search&nbsp;from&nbsp;<br>
+Bing&nbsp;API<br>
+Also&nbsp;takes&nbsp;as&nbsp;input&nbsp;the&nbsp;search&nbsp;string&nbsp;used&nbsp;to&nbsp;get&nbsp;results<br>
+returns&nbsp;dataset&nbsp;after&nbsp;performing&nbsp;all&nbsp;preprocessing&nbsp;task.<br>
+Full&nbsp;stops&nbsp;are&nbsp;replaced&nbsp;by&nbsp;the&nbsp;sentence&nbsp;seperator,&nbsp;so&nbsp;that<br>
+phrases&nbsp;containing&nbsp;the&nbsp;sentence&nbsp;seperator&nbsp;can&nbsp;be&nbsp;removed<br>
+later&nbsp;easily.</tt></dd></dl>
+
+<dl><dt><a name="PreProcessingAPI-getStemmed"><strong>getStemmed</strong></a>(self, s)</dt><dd><tt>takes&nbsp;a&nbsp;string&nbsp;s&nbsp;and&nbsp;returns&nbsp;the&nbsp;stemmed&nbsp;(porter,&nbsp;nltk)&nbsp;version&nbsp;of&nbsp;the&nbsp;word</tt></dd></dl>
+
+<dl><dt><a name="PreProcessingAPI-getStopwords"><strong>getStopwords</strong></a>(self)</dt><dd><tt>List&nbsp;of&nbsp;stop&nbsp;words&nbsp;taken&nbsp;from&nbsp;<a href="http://www.lextek.com/manuals/onix/stopwords2.html">http://www.lextek.com/manuals/onix/stopwords2.html</a><br>
+returns&nbsp;the&nbsp;list&nbsp;in&nbsp;stemmed&nbsp;form&nbsp;(porter&nbsp;stemmer)</tt></dd></dl>
+
+<dl><dt><a name="PreProcessingAPI-getText"><strong>getText</strong></a>(self, i, stemmed)</dt><dd><tt>Tokenizes&nbsp;text,&nbsp;lowercases,&nbsp;removes&nbsp;empty&nbsp;strings,&nbsp;stems<br>
+and&nbsp;returns&nbsp;a&nbsp;joint&nbsp;string&nbsp;seperated&nbsp;by&nbsp;spaces.<br>
+Also&nbsp;returns&nbsp;a&nbsp;dictionary&nbsp;stemmed,<br>
+stemmed[stemmed&nbsp;word]&nbsp;=&nbsp;Original&nbsp;word</tt></dd></dl>
+
+<dl><dt><a name="PreProcessingAPI-getTextFromURL"><strong>getTextFromURL</strong></a>(self, d, stemmed)</dt><dd><tt>Tokenizes&nbsp;text,&nbsp;lowercases,&nbsp;removes&nbsp;empty&nbsp;strings,&nbsp;stems&nbsp;URL&nbsp;"d"<br>
+and&nbsp;returns&nbsp;a&nbsp;joint&nbsp;string&nbsp;seperated&nbsp;by&nbsp;spaces.&nbsp;In&nbsp;addition&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+to&nbsp;<a href="#PreProcessingAPI-getText">getText</a>(),&nbsp;this&nbsp;function&nbsp;uses&nbsp;the&nbsp;<a href="#PreProcessingAPI-replaceAll">replaceAll</a>()&nbsp;function<br>
+required&nbsp;to&nbsp;clean&nbsp;the&nbsp;URL.<br>
+Also&nbsp;returns&nbsp;a&nbsp;dictionary&nbsp;stemmed,<br>
+stemmed[stemmed&nbsp;word]&nbsp;=&nbsp;Original&nbsp;word</tt></dd></dl>
+
+<dl><dt><a name="PreProcessingAPI-lowercase"><strong>lowercase</strong></a>(self, s)</dt><dd><tt>returns&nbsp;string&nbsp;s&nbsp;in&nbsp;lowercase&nbsp;as&nbsp;a&nbsp;string</tt></dd></dl>
+
+<dl><dt><a name="PreProcessingAPI-replaceAll"><strong>replaceAll</strong></a>(self, s)</dt><dd><tt>returns&nbsp;the&nbsp;string&nbsp;s&nbsp;with&nbsp;'_'&nbsp;replaced&nbsp;by&nbsp;space,&nbsp;and&nbsp;%2c&nbsp;replaced&nbsp;by&nbsp;a&nbsp;','</tt></dd></dl>
+
+<dl><dt><a name="PreProcessingAPI-tokenize"><strong>tokenize</strong></a>(self, s)</dt><dd><tt>Tokenizes&nbsp;a&nbsp;string&nbsp;s,&nbsp;based&nbsp;on&nbsp;all&nbsp;non&nbsp;word&nbsp;characters&nbsp;as&nbsp;defined&nbsp;by&nbsp;python<br>
+Also&nbsp;does&nbsp;not&nbsp;split&nbsp;on&nbsp;'.'&nbsp;if&nbsp;there&nbsp;are&nbsp;numbers&nbsp;on&nbsp;either&nbsp;side.<br>
+e.g.&nbsp;Does&nbsp;not&nbsp;split&nbsp;1.2&nbsp;but&nbsp;splits&nbsp;a.b&nbsp;into&nbsp;[a,b]</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>stemmer</strong> = &lt;PorterStemmer&gt;</dl>
+
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>DOTALL</strong> = 16<br>
+<strong>I</strong> = 2<br>
+<strong>IGNORECASE</strong> = 2<br>
+<strong>L</strong> = 4<br>
+<strong>LOCALE</strong> = 4<br>
+<strong>M</strong> = 8<br>
+<strong>MULTILINE</strong> = 8<br>
+<strong>S</strong> = 16<br>
+<strong>U</strong> = 32<br>
+<strong>UNICODE</strong> = 32<br>
+<strong>VERBOSE</strong> = 64<br>
+<strong>X</strong> = 64<br>
+<strong>__author__</strong> = 'Rohan Agrawal'<br>
+<strong>division</strong> = _Feature((2, 2, 0, 'alpha', 2), (3, 0, 0, 'alpha', 0), 8192)</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Author</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Rohan&nbsp;Agrawal</td></tr></table>
+</body></html>

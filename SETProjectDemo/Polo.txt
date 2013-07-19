@@ -1,0 +1,173 @@
+RESULTS FOR SEARCH TERM "Polo"
+
+-----------------------------Cluster 1-----------------------------
+
+1. polo at Zappos.com
+http://www.zappos.com/polo
+Snippet: Free shipping BOTH ways on polo, from our vast selection of styles. Fast delivery, and 24/7/365 real-person service with a smile. Click or call 800-927-7671.
+
+
+2. Polo Polo - Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/Polo_Polo
+Snippet: Polo Polo (Mexico City, March 9, of 1944) is a Mexican comedian. His real name is Leopoldo García Benítez Peláez, known internationally for his practical jokes for ...
+
+
+3. Polo Polo You Tube Oficial - YouTube
+http://www.youtube.com/user/polopoloentertainmen
+Snippet: Bienvenido al canal oficial en YouTube de Polo Polo. " Si te quieres liberar de la tentación, mejor cae en ella¨ Un abrazo Polo Polo
+
+
+-----------------------------Cluster 2-----------------------------
+
+4. Ralph Lauren
+http://www.ralphlauren.com/frontdoor/index.jsp
+Snippet: RalphLauren.com - The Official Site of Ralph Lauren. RalphLauren.com offers the world of Ralph Lauren, including clothing for men, women and children, bedding and ...
+
+
+5. Ralph Lauren: Shop Men's & Women's Clothing, Shirts, Shorts and ...
+http://www.ralphlauren.com/home/index.jsp
+Snippet: Polo Ralph Lauren. RLX. RRL. Denim & Supply. Big & Tall. Golf. Women. Children; Baby; Home Sale; Style Guide; World of Ralph Lauren. UNITED STATES. Change ...
+
+
+6. Shop Polo Ralph Lauren and Polo Ralph Lauren for Men - Macy's
+http://www1.macys.com/shop/mens-clothing/polo-ralph-lauren?id=3304
+Snippet: Browse our selection of Polo Ralph Lauren and Polo Ralph Lauren for Men. Free Shipping with any $99 Polo Ralph Lauren purchase now at Macys!
+
+
+7. Polo Shoes - Polo by Ralph Lauren | Shoes.com
+http://www.shoes.com/polo
+Snippet: Free shipping on Polo by Ralph Lauren shoes for men, boys and girls, including boots, sandals, casual and athletic shoes at shoes.com.
+
+
+8. Polo Ralph Lauren | Men | Dillards.com
+http://www.dillards.com/shop/Polo-Ralph-Lauren/Men/_/N-173m7Zlfy5
+Snippet: Shop for Polo Ralph Lauren Men & other designer brands at Dillards.com. Visit Dillard's to find men's, women's & junior's accessories, shoes, cosmetics & more. The ...
+
+
+9. Amazon.com: polo ralph lauren
+http://www.amazon.com/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Apolo%20ralph%20lauren
+Snippet: See our full selection, shop by categories, discover related brands, and more. Visit the store.
+
+
+-----------------------------Cluster 3-----------------------------
+
+10. Polo - definition of Polo by the Free Online Dictionary, Thesaurus ...
+http://www.thefreedictionary.com/polo
+Snippet: Po·lo (p l), Marco 1254-1324. Venetian traveler who explored Asia from 1271 to 1295. His Travels of Marco Polo was the only account of the Far East available to ...
+
+
+11. Marco Polo: Biography from Answers.com
+http://www.answers.com/topic/marco-polo
+Snippet: Marco Polo (click to enlarge) Marco Polo, title page of the first printed edition of The Travels of Marco Polo, 1477
+
+
+-----------------------------Cluster 4-----------------------------
+
+12. polo in Men's Clothing | eBay - Electronics, Cars, Fashion ...
+http://www.ebay.com/sch/i.html?_nkw=polo
+Snippet: Find great deals on eBay for polo and polo ralph lauren in Men's Clothing. Shop with confidence.
+
+
+13. Mens Polo Shirts | Old Navy - Free Shipping on $50
+http://www.oldnavy.com/products/mens-polo-shirts.jsp
+Snippet: Buy mens polo shirts including mens polo t-shirts, polo tees, long sleeve, short sleeve polos and more from Old Navy.
+
+
+14. polo shirts in Casual Shirts | eBay - Electronics, Cars, Fashion ...
+http://www.ebay.com/sch/i.html?_nkw=polo+shirts
+Snippet: Find great deals on eBay for polo shirts and Ralph Lauren Polo Shirts in Casual Shirts. Shop with confidence.
+
+
+-----------------------------Cluster 5-----------------------------
+
+15. Polo - Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/Polo_mallet
+Snippet: Polo is a team sport played on horseback in which the objective is to score goals against an opposing team. Sometimes called "The Sport of Kings", it was started by ...
+
+
+16. Bolstered by a wave of Serban recruits, St. Francis College ...
+http://www.nydailynews.com/new-york/brooklyn/tiny-st-francis-college-stands-tall-water-polo-competition-article-1.1207799
+Snippet: A small Brooklyn college’s international recruiting strategy is slowly turning its once-dormant water polo team into a powerhouse. Coaches for the St. Francis ...
+
+
+17. United States Polo Association (USPA)
+http://us-polo.org/
+Snippet: Formed in 1890 to promote the game of polo, co-ordinate member clubs, register members and players, and arrange and supervise national and international games. Offers ...
+
+
+18. Polo | Define Polo at Dictionary.com
+http://dictionary.reference.com/browse/Polo
+Snippet: noun 1. a game played on horseback between two teams, each of four players, the object being to score points by driving a wooden ball into the opponents' goal using a ...
+
+
+-----------------------------Cluster 6-----------------------------
+
+19. Polo Resources Limited: Nimini Awarded Mining Licence in Sierra ...
+http://www.marketwatch.com/story/polo-resources-limited-nimini-awarded-mining-licence-in-sierra-leone-2012-11-26
+Snippet: press release. Nov. 26, 2012, 11:17 a.m. EST Polo Resources Limited: Nimini Awarded Mining Licence in Sierra Leone
+
+
+20. Polo Resources Limited: Nimini Awarded Mining Licence in Sierra ...
+http://finance.boston.com/boston/news/read?GUID=22848574
+Snippet: Polo Resources Limited (AIM, TSX: POL)(“Polo” or the “Company”), the natural resources investment company with interests in gold, oil and gas, coal ...
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+CLUSTER LABELS are:
+
+Cluster 1
+polo polo
+real
+oficial
+
+Cluster 2
+polo ralph lauren
+mens women
+shoes
+
+Cluster 3
+travels marco polo
+po lo
+venetian travels explored
+
+Cluster 4
+mens polo shirts
+deals ebay polo
+mens clothing
+
+Cluster 5
+game
+polo teams
+members
+
+Cluster 6
+polo resources limited
+awarded mining licence
+mining licence sierra
+
+We will talk about the appropriateness of cluster labels. Taking each label one by one.
+'polo polo' accurately descibes cluster 1 which is about the Comedian Polo Polo.
+'polo ralph lauren' accurately descirbes cluster 2 about the same, polo brand by ralph lauren.
+'travels marco polo' accurately describes cluster 3 about the traveller marco polo.
+'mens polo shirts' accurately describes cluster 4 which is about the style of shirts called polo shirts, not to be confused with the brand by ralph lauren.
+'game' accurately describes the polo game which is talked about in cluster 5.
+'polo resources limited' accurately describes the company of the same name being talked about in cluster 6.
+
+------------------------------------------------PURITY--------------------------------------------------------------------------------
+
+Number of Accurate labels in Cluster 1 are 2 / 3
+Number of Accurate labels in Cluster 2 are 6 / 6
+Number of Accurate labels in Cluster 3 are 2 / 2
+Number of Accurate labels in Cluster 4 are 3 / 3
+Number of Accurate labels in Cluster 5 are 4 / 4
+Number of Accurate labels in Cluster 6 are 2 / 2
+
+PURITY = 19 / 20
+       = 95 %
+
+
+

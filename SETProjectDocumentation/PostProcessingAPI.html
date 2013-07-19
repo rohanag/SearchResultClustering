@@ -1,0 +1,98 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module PostProcessingAPI</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>PostProcessingAPI</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:///C:/users/rohan/dropbox/wip/ra2616-setproject/api/postprocessingapi.py">c:\users\rohan\dropbox\wip\ra2616-setproject\api\postprocessingapi.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="nltk.stem.porter.html">nltk.stem.porter</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="PostProcessingAPI.html#PostProcessingAPI">PostProcessingAPI</a>
+</font></dt></dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="PostProcessingAPI">class <strong>PostProcessingAPI</strong></a></font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Contains&nbsp;functions&nbsp;required&nbsp;for&nbsp;post&nbsp;processing&nbsp;,&nbsp;i.e<br>
+post&nbsp;k&nbsp;means&nbsp;clustering,&nbsp;such&nbsp;as&nbsp;removing&nbsp;redundant<br>
+cluster&nbsp;labels,&nbsp;combining&nbsp;search&nbsp;term&nbsp;with&nbsp;candidate&nbsp;<br>
+cluster&nbsp;label&nbsp;to&nbsp;get&nbsp;a&nbsp;new&nbsp;search&nbsp;term.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="PostProcessingAPI-cleanRedundantLabels"><strong>cleanRedundantLabels</strong></a>(self, result, searchstring, sentenceseperator)</dt><dd><tt>Candidate&nbsp;lables&nbsp;contained&nbsp;in&nbsp;result&nbsp;contain&nbsp;many&nbsp;redundant<br>
+labels,&nbsp;for&nbsp;e.g.&nbsp;['polo&nbsp;men',&nbsp;'polo&nbsp;men&nbsp;women'],&nbsp;the&nbsp;label<br>
+'polo&nbsp;men'&nbsp;is&nbsp;redundant&nbsp;because&nbsp;its&nbsp;information&nbsp;is&nbsp;entirely<br>
+contained&nbsp;in&nbsp;'polo&nbsp;men&nbsp;women',&nbsp;hence&nbsp;the&nbsp;former&nbsp;label&nbsp;is&nbsp;<br>
+removed.&nbsp;Similary&nbsp;for&nbsp;a&nbsp;search&nbsp;string&nbsp;"polo",&nbsp;the&nbsp;candidate<br>
+label&nbsp;"polo"&nbsp;is&nbsp;also&nbsp;redundant&nbsp;as&nbsp;it&nbsp;provides&nbsp;no&nbsp;extra<br>
+information&nbsp;about&nbsp;the&nbsp;cluster.&nbsp;Labels&nbsp;which&nbsp;contain&nbsp;the&nbsp;<br>
+sentence&nbsp;seperator&nbsp;term&nbsp;are&nbsp;also&nbsp;removed&nbsp;as&nbsp;phrases&nbsp;cannot<br>
+extend&nbsp;beyond&nbsp;a&nbsp;sentence.</tt></dd></dl>
+
+<dl><dt><a name="PostProcessingAPI-getCandidateLabels"><strong>getCandidateLabels</strong></a>(self, n, vectorizer, centers, i, e)</dt><dd><tt>Takes&nbsp;input&nbsp;n&nbsp;-&nbsp;number&nbsp;of&nbsp;labels&nbsp;requested,<br>
+vectorizer&nbsp;-&nbsp;vectorizer&nbsp;objec<br>
+centers&nbsp;-&nbsp;k&nbsp;means&nbsp;cluster&nbsp;centers<br>
+i&nbsp;-&nbsp;values&nbsp;of&nbsp;tfidf&nbsp;for&nbsp;each&nbsp;feature&nbsp;of&nbsp;the&nbsp;cluster&nbsp;centers<br>
+e&nbsp;-&nbsp;current&nbsp;cluster&nbsp;e<br>
+Returns&nbsp;all&nbsp;the&nbsp;labels&nbsp;in&nbsp;a&nbsp;list</tt></dd></dl>
+
+<dl><dt><a name="PostProcessingAPI-getNewSearchString"><strong>getNewSearchString</strong></a>(self, searchstring, newterm)</dt><dd><tt>Combines&nbsp;the&nbsp;searchstring&nbsp;and&nbsp;new&nbsp;term&nbsp;(&nbsp;which&nbsp;is&nbsp;the&nbsp;<br>
+cluster&nbsp;label&nbsp;)&nbsp;to&nbsp;come&nbsp;up&nbsp;with&nbsp;a&nbsp;new&nbsp;search&nbsp;term,&nbsp;<br>
+to&nbsp;expand&nbsp;the&nbsp;search&nbsp;in&nbsp;the&nbsp;direction&nbsp;of&nbsp;the&nbsp;cluster<br>
+chosed&nbsp;by&nbsp;the&nbsp;user.</tt></dd></dl>
+
+<dl><dt><a name="PostProcessingAPI-getOriginalPhrase"><strong>getOriginalPhrase</strong></a>(self, result, stemmed)</dt><dd><tt>The&nbsp;candidate&nbsp;cluster&nbsp;labels&nbsp;in&nbsp;results&nbsp;are&nbsp;stemmed,&nbsp;<br>
+so&nbsp;this&nbsp;functions&nbsp;returns&nbsp;their&nbsp;true&nbsp;form</tt></dd></dl>
+
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>DOTALL</strong> = 16<br>
+<strong>I</strong> = 2<br>
+<strong>IGNORECASE</strong> = 2<br>
+<strong>L</strong> = 4<br>
+<strong>LOCALE</strong> = 4<br>
+<strong>M</strong> = 8<br>
+<strong>MULTILINE</strong> = 8<br>
+<strong>PPobj</strong> = &lt;PreProcessingAPI.PreProcessingAPI instance&gt;<br>
+<strong>S</strong> = 16<br>
+<strong>U</strong> = 32<br>
+<strong>UNICODE</strong> = 32<br>
+<strong>VERBOSE</strong> = 64<br>
+<strong>X</strong> = 64<br>
+<strong>__author__</strong> = 'Rohan Agrawal'<br>
+<strong>division</strong> = _Feature((2, 2, 0, 'alpha', 2), (3, 0, 0, 'alpha', 0), 8192)</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Author</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Rohan&nbsp;Agrawal</td></tr></table>
+</body></html>

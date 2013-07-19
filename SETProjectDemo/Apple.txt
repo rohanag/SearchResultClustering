@@ -1,0 +1,173 @@
+RESULTS FOR SEARCH TERM "Apple"
+
+-----------------------------Cluster 1-----------------------------
+
+1. Official Apple Store - Buy new iPad mini, iPad, iPhone 5, MacBook ...
+http://store.apple.com/us
+Snippet: Buy new iPad, iPad mini, 13-inch MacBook Pro with Retina display, and more. Get fast, free shipping on orders over $50 or pick up at a local Apple Retail Store.
+
+
+2. New iPhone 5 - Buy Apple iPhone with Free Shipping - Apple Store ...
+http://store.apple.com/us/browse/home/shop_iphone
+Snippet: Order the new iPhone 5 in white & silver or black & slate. iPhone 5 features a thin and light design, A6 chip, 4-inch Retina display, Apple EarPods, iOS 6, and Siri.
+
+
+-----------------------------Cluster 2-----------------------------
+
+3. Apple Inc. - Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/Apple_inc
+Snippet: Apple Inc. (NASDAQ: AAPL), formerly Apple Computer, Inc., is an American multinational corporation headquartered in Cupertino, California that designs, develops, and ...
+
+
+4. Apple - Blackboard
+http://www.businessinsider.com/blackboard/apple
+Snippet: Apple Inc. is an American multinational corporation that designs and markets consumer electronics, computer software, and personal computers. The companys best-known ...
+
+
+5. Apple Computer Inc: Biography from Answers.com
+http://www.answers.com/topic/apple-computer-inc
+Snippet: Apple Inc. Microcomputer design and manufacturing company, the first successful personal-computer company
+
+
+-----------------------------Cluster 3-----------------------------
+
+6. Apple - Wikipedia, the free encyclopedia
+http://en.wikipedia.org/?title=Apple
+Snippet: The apple is the pomaceous fruit of the apple tree, species Malus domestica in the rose family (Rosaceae). It is one of the most widely cultivated tree fruits, and ...
+
+
+7. Apple - Simple English Wikipedia, the free encyclopedia
+http://simple.wikipedia.org/wiki/Apple
+Snippet: The apple is a fleshy fruit from the apple tree. It is in the species Malus domestica in the rose family Rosaceae. The apple is one of the most grown tree fruits.
+
+
+8. Apple | Define Apple at Dictionary.com
+http://dictionary.reference.com/browse/APPLE
+Snippet: noun 1. the usually round, red or yellow, edible fruit of a small tree, Malus sylvestris, of the rose family. 2. the tree, cultivated in most temperate regions. 3 ...
+
+
+-----------------------------Cluster 4-----------------------------
+
+9. Apple - My Apple ID
+https://appleid.apple.com/
+Snippet: An Apple ID is your user name for everything you do with Apple: Shop the iTunes Store, enable iCloud on all your devices, buy from the Apple Online Store, make a ...
+
+
+10. Apple - Login
+http://signin.info.apple.com/
+Snippet: Your Apple ID lets you personalize your experience on MobileMe, the Apple Store and the Support site.
+
+
+11. Apple - Safari - Safari Extensions Gallery
+https://extensions.apple.com/
+Snippet: Now you can personalize your browsing experience with Safari Extensions. They’re great ways to add extra functionality to Safari, so you can explore the web just ...
+
+
+12. Apple - Support - Downloads
+http://support.apple.com/downloads/
+Snippet: Product Security Learn about reporting security issues to Apple,checking security on your system and how to get security notifications.
+
+
+-----------------------------Cluster 5-----------------------------
+
+13. Apple
+http://www.apple.com/
+Snippet: Shop the Apple Online Store (1-800-MY-APPLE), featuring MAC, iPod, iPhone, iPad, iTunes, service, and support.
+
+
+14. Apple - iTunes - Everything you need to be entertained.
+http://www.apple.com/itunes/
+Snippet: All-in-one application from Apple with free AAC/MP4 encoder and decoder from QuickTime, rips CDs, organizes music files and connects to its Music Store.
+
+
+15. Apple
+https://portal.apple.com/
+Snippet: Your one stop destination to find Apple sales resources. ...
+
+
+16. Jack the Giant Slayer - Movie Trailers - iTunes
+http://trailers.apple.com/trailers/wb/jackthegiantslayer/
+Snippet: "Jack the Giant Slayer" tells the story of an ancient war that is reignited when a young farmhand unwittingly opens a gateway between our world and a fearsome race of ...
+
+
+17. Apple Teases Its Black Friday Sale For 2012
+http://www.huffingtonpost.com/2012/11/20/apple-black-friday-sale-2012_n_2166021.html
+Snippet: UPDATE: Apple has kicked off its Black Friday event. Read on for more details on discounts available in stores and online, only on November 23. Mark your ...
+
+
+-----------------------------Cluster 6-----------------------------
+
+18. Apple - The latest on Apple - CNET News
+http://news.cnet.com/apple/
+Snippet: Check out the latest Apple news on CNET News, featuring developments on the iPhone, Mac OS, iPod, iPad, and much more.
+
+
+19. Apple TV won't debut until late 2013, says analyst | Apple - CNET News
+http://news.cnet.com/8301-13579_3-57552492-37/apple-tv-wont-debut-until-late-2013-says-analyst/
+Snippet: Apple could finally unveil its long-awaited TV in time for the holiday-shopping season, but not this year's season. In an investors note out today, Piper Jaffray ...
+
+
+20. Apple Incorporated (AAPL) News - Company Information - The New ...
+http://topics.nytimes.com/top/news/business/companies/apple_computer_inc/index.html
+Snippet: Apple Incorporated financial and business news, updates, and information from The New York Times and other leading providers.
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+CLUSTER LABELS are:
+
+Cluster 1
+new iphone
+buy new ipad
+ipad mini
+
+Cluster 2
+apple computer
+personalize computer company
+california design developments
+
+Cluster 3
+apple tree species
+fruit apple tree
+domestica rose family
+
+Cluster 4
+safari extensions
+apple id
+security
+
+Cluster 5
+sale
+ipad itunes
+music
+
+Cluster 6
+apple cnet news
+latest apple
+apple incorporated
+
+We will talk about the appropriateness of cluster labels. Taking each label one by one.
+'new iphone', 'buy new ipad'  accurately descibe cluster 1 which is about products from the apple store.
+'apple computer' accurately descirbes cluster 2 which has informative results about Applce Computers Inc. This label could have been more specific.
+'apple tree species', 'fruit apple tree' accurately describes cluster 3 about the apple tree and fruit species.
+Cluster 4 is a bit ambigious combining a few results about apple id, and a few results about safari extensions. But both labels are found out by the system.
+sale, 'ipad itunes' accurately describe the itunes store in cluster 5.
+'apple cnet news', 'latest apple' accurately describe cluster 6 which is about the latest news about Apple Inc.
+
+------------------------------------------------PURITY--------------------------------------------------------------------------------
+
+Number of Accurate labels in Cluster 1 are 2 / 2
+Number of Accurate labels in Cluster 2 are 3 / 3
+Number of Accurate labels in Cluster 3 are 3 / 3
+Number of Accurate labels in Cluster 4 are 2 / 4 (This was an ambigious cluster, so it was taken to represent AppleID which was the dominant result in the cluster)
+Number of Accurate labels in Cluster 5 are 4 / 5 (Result 16 was a strange result returned by Bing API and doesn't fit into any cluster)
+Number of Accurate labels in Cluster 6 are 3 / 3
+
+PURITY = 17 / 20
+       = 85 %
+
+
+
